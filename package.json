@@ -3,7 +3,10 @@
   "version": "4.3.2",
   "description": "The React Chessboard Library used at ChessOpenings.co.uk. Inspired and adapted from the unmaintained Chessboard.jsx.",
   "author": "Ryan Gregory <ryangregory.dev@outlook.com>",
-  "repository": "https://github.com/Clariity/react-chessboard",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Clariity/react-chessboard.git"
+  },
   "license": "MIT",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
@@ -65,5 +68,9 @@
     "react-dnd": "^16.0.1",
     "react-dnd-html5-backend": "^16.0.1",
     "react-dnd-touch-backend": "^16.0.1"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/Clariity/react-chessboard/issues"
+  },
+  "homepage": "https://github.com/Clariity/react-chessboard#readme"
 }
